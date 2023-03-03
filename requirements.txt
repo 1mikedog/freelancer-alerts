@@ -1,0 +1,4 @@
+google-currency
+discord-webhook
+psycopg2-binary
+pytz
