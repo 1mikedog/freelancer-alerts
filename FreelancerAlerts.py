@@ -9,7 +9,11 @@ import psycopg2
 import pytz
 import os
 from database import *
-import config
+
+try:
+    import config
+except:
+    pass
 
 try:
     DATABASE_URL = os.environ['DATABASE_URL']
